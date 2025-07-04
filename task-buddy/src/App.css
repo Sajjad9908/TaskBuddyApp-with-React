@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 100%;
+    background-color: #282c34;
+    margin-top: 2rem;
+}
+#span{
+    color: rgb(255, 217, 0);
+    font-size: 32px;
+}
+.keepTrack{
+    font-style: italic;
+}

@@ -1,0 +1,92 @@
+.MiainTaskDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#inp{
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 2rem;
+    display: flex;
+    gap: -12px;
+    
+}
+#btnk{
+    width: 50%;
+    margin-right: 2rem;
+}
+input{
+   height: 47px;
+    width: 55%;
+    margin-top: 2rrem;
+    border-radius: 26px;
+    background: #272424;
+    color: white;
+    padding-left: 37px;
+    
+}
+.btndiv{
+    width: 200px;
+        margin-left: -20px;
+    
+}
+
+    #addbtn {
+    height: 54px;
+    width: 200px;
+    border-bottom-right-radius: 26px;
+    border-top-right-radius: 26px;
+ 
+    left: 354px;
+    color: black;
+    background-color: rgb(236, 236, 9);
+    font-weight: bold;
+    font-size: 1.2rem;
+    top: 2px;
+}
+select{
+    height: 54px;
+    width: 200px;
+  
+   border-radius: 10px;
+   text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+        margin-top: 27px;
+ 
+}
+#btns{
+    display: flex;
+   gap: 1rem;
+}
+@media screen and (max-width: 1119px) {
+    #inp {
+    width: 100%;
+    align-items: center;
+    justify-content: center;}
+    #btns {
+    width: 100%;
+   
+   
+    align-items: center;
+    justify-content: center;}
+
+
+}
+@media screen and (max-width: 550px) {
+    #addbtn {
+            width: 126px;
+    }
+    input {
+        width: 77%;
+    }
+        #inp {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 44px 3px;}
+}

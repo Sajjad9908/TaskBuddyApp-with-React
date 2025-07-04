@@ -1,0 +1,61 @@
+.task-list{
+    margin-top: 4rem;
+    
+}
+.task-list h2{
+    text-align: center;
+  font-size: 34px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.task-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    background-color: rgb(49, 49, 49);
+  
+    padding: 30px;
+    gap: 2rem;
+      margin: 30px 0;
+      border-radius: 30px;
+
+    
+
+}
+.completed{
+    text-decoration: line-through;
+    color: white;
+    opacity: 0.5;
+}
+span{
+    font-size: 18px;
+
+}
+.tasklistButtons{
+   font-size: 18px;
+   color: white;
+   border: none;
+    cursor: pointer;
+    width: 180px;
+    background: none;
+    color: yellow;
+
+}
+   
+@media screen and (max-width: 706px) {
+    .task-item-container {
+        flex-direction: column;
+        text-align: center;
+        height: 60px;
+    }
+
+.tasklistButtons {
+    width: 101px;
+}
+}
