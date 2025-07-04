@@ -2,7 +2,7 @@ import React, { use, useEffect, useState } from 'react'
 import { Progresstracker } from './components/Progresstracker'
 import TaskForm  from './components/TaskForm'
 import { TaskList } from './components/TaskList'
-import './app.css'; // Importing the main CSS file for styling
+import './App.css'; // Importing the main CSS file for styling
 
 const App = () => {
 
